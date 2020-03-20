@@ -88,6 +88,9 @@ function calcDurability(dur, manipulation, seq) {
     }
     if (Array.isArray(action)) {
       [dur, manipulation] = calcDurability(dur, manipulation, action);
+      if (dur < 1) {
+        return [dur, 0];
+      }
     } else {
       if (action === "Manipulation") {
         manipulation = 8;
@@ -145,6 +148,7 @@ function Icon({ action }) {
 }
 
 function solve(cp, durability, manipulation, observes) {
+  if (durability < 0) return;
   let model = {
     optimize: "quality",
     opType: "max",
@@ -184,11 +188,11 @@ function solve(cp, durability, manipulation, observes) {
 }
 
 function App() {
-  const [durability, setDurability] = useState(13);
-  const [cp, setCp] = useState(183);
-  const [manipulation, setManipulation] = useState(7);
+  const [durability, setDurability] = useState(1);
+  const [cp, setCp] = useState(320);
+  const [manipulation, setManipulation] = useState(0);
   const [solutions, setSolutions] = useState([]);
-  const [carefulSyn, setCarefulSyn] = useState(false);
+  const [carefulSyn, setCarefulSyn] = useState(true);
   const [showAlert, setShowAlert] = useState(false);
   const [displayInfo, setDisplayInfo] = useState(true);
   const classes = useStyles();
@@ -199,10 +203,10 @@ function App() {
       cpAvail -= 7;
     }
     let results = [
-      solve(cpAvail, durability, manipulation, 0),
-      solve(cpAvail, durability - 5, manipulation, 0),
-      solve(cpAvail, durability, manipulation, 1),
-      solve(cpAvail, durability, manipulation, 2)
+      solve(cpAvail, durability, manipulation, 0)
+      //solve(cpAvail, durability - 5, manipulation, 0),
+      //solve(cpAvail, durability, manipulation, 1),
+      //solve(cpAvail, durability, manipulation, 2)
     ];
     let max = null;
     for (const result of results) {
