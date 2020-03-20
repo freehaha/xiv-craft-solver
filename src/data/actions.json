@@ -1,0 +1,163 @@
+{
+  "actions": {
+    "x1": { "cp": 0, "durability": 10, "quality": 1169 },
+    "x2": { "cp": 150, "durability": 20, "quality": 19873 },
+    "x3": { "cp": 125, "durability": 20, "quality": 15781 },
+    "x4": { "cp": 118, "durability": 20, "quality": 14028 },
+    "x5": { "cp": 100, "durability": 20, "quality": 14027 },
+    "x6": { "cp": 68, "durability": 20, "quality": 10520 },
+    "x7": { "cp": 57, "durability": 10, "quality": 7014 },
+    "x8": { "cp": 57, "durability": 5, "quality": 4676 },
+    "x9": { "cp": 18, "durability": 10, "quality": 2338 },
+    "x10": { "cp": 25, "durability": 5, "quality": 2338 },
+    "x11": { "cp": 25, "durability": 10, "quality": 3507 },
+    "x12": { "cp": 40, "durability": 20, "quality": 4676 },
+    "x13": { "cp": 72, "durability": 20, "quality": 9352 },
+    "m": { "cp": 96, "durability": -40, "quality": 0 },
+    "ma": { "cp": 88, "durability": -30, "quality": 0 },
+    "ob": { "cp": 7, "durability": 0, "quality": 0, "ob": 1 },
+
+    "f1": { "cp": 164, "durability": 40, "quality": 32732, "finisher": 1 },
+    "f2": { "cp": 171, "durability": 35, "quality": 32732, "finisher": 1 },
+    "f3": { "cp": 192, "durability": 30, "quality": 31563, "finisher": 1 },
+    "f4": { "cp": 146, "durability": 30, "quality": 29225, "finisher": 1 },
+    "f5": { "cp": 167, "durability": 25, "quality": 28056, "finisher": 1 },
+    "f6": { "cp": 131, "durability": 20, "quality": 26302, "finisher": 1 },
+    "f7": { "cp": 110, "durability": 30, "quality": 24549, "finisher": 1 },
+    "f8": { "cp": 117, "durability": 25, "quality": 24549, "finisher": 1 },
+    "f9": { "cp": 124, "durability": 20, "quality": 24549, "finisher": 1 },
+    "f10": { "cp": 92, "durability": 20, "quality": 21042, "finisher": 1 },
+    "f11": { "cp": 99, "durability": 15, "quality": 21042, "finisher": 1 },
+    "f12": { "cp": 74, "durability": 10, "quality": 17535, "finisher": 1 }
+  },
+  "sequences": {
+    "ob": "Observe",
+    "f12": ["Great Strides", "Innovation", "Byregot's Blessing"],
+    "f11": [
+      "Innovation",
+      "Prudent Touch",
+      "Great Strides",
+      "Byregot's Blessing"
+    ],
+    "f10": ["Innovation", "Basic Touch", "Great Strides", "Byregot's Blessing"],
+    "f9": [
+      "Innovation",
+      "Prudent Touch",
+      "Prudent Touch",
+      "Great Strides",
+      "Byregot's Blessing"
+    ],
+    "f8": [
+      "Innovation",
+      "Prudent Touch",
+      "Basic Touch",
+      "Great Strides",
+      "Byregot's Blessing"
+    ],
+    "f7": [
+      "Innovation",
+      "Basic Touch",
+      "Basic Touch",
+      "Great Strides",
+      "Byregot's Blessing"
+    ],
+    "f6": [
+      "Great Strides",
+      "Innovation",
+      "Observe",
+      "Focused Touch",
+      "Great Strides",
+      "Byregot's Blessing"
+    ],
+    "f5": [
+      "Innovation",
+      "Prudent Touch",
+      "Prudent Touch",
+      "Prudent Touch",
+      "Great Strides",
+      "Innovation",
+      "Byregot's Blessing"
+    ],
+    "f4": [
+      "Great Strides",
+      "Innovation",
+      "Preparatory Touch",
+      "Great Strides",
+      "Byregot's Blessing"
+    ],
+    "f3": [
+      "Innovation",
+      "Prudent Touch",
+      "Prudent Touch",
+      "Prudent Touch",
+      "Prudent Touch",
+      "Great Strides",
+      "Innovation",
+      "Byregot's Blessing"
+    ],
+    "f2": [
+      "Great Strides",
+      "Innovation",
+      "Preparatory Touch",
+      "Prudent Touch",
+      "Great Strides",
+      "Byregot's Blessing"
+    ],
+    "f1": [
+      "Great Strides",
+      "Innovation",
+      "Preparatory Touch",
+      "Basic Touch",
+      "Great Strides",
+      "Byregot's Blessing"
+    ],
+    "ma": "Master's Mend",
+    "m": "Manipulation",
+    "x13": ["Great Strides", "Preparatory Touch"],
+    "x12": "Preparatory Touch",
+    "x11": ["Observe", "Focused Touch"],
+    "x10": "Prudent Touch",
+    "x9": "Basic Touch",
+    "x8": ["Great Strides", "Prudent Touch"],
+    "x7": ["Great Strides", "Observe", "Focused Touch"],
+    "x6": [
+      "Innovation",
+      "Observe",
+      "Focused Touch",
+      "Observe",
+      "Focused Touch"
+    ],
+    "x5": [
+      "Great Strides",
+      "Innovation",
+      "Observe",
+      "Focused Touch",
+      "Observe",
+      "Focused Touch"
+    ],
+    "x4": [
+      "Innovation",
+      "Prudent Touch",
+      "Prudent Touch",
+      "Prudent Touch",
+      "Prudent Touch"
+    ],
+    "x3": [
+      "Great Strides",
+      "Innovation",
+      "Observe",
+      "Focused Touch",
+      "Prudent Touch",
+      "Prudent Touch"
+    ],
+    "x2": [
+      "Great Strides",
+      "Innovation",
+      "Prudent Touch",
+      "Prudent Touch",
+      "Prudent Touch",
+      "Prudent Touch"
+    ],
+    "x1": "Hasty Touch"
+  }
+}
