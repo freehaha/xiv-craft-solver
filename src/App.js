@@ -308,6 +308,9 @@ function App() {
                   </Typography>
                   <div className={classes.solutionSteps}>
                     {solution.sequence.map((action, i) => {
+                      if (!action) {
+                        return null;
+                      }
                       return <Icon key={i} action={action} />;
                     })}
                   </div>
