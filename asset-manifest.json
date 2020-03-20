@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/xiv-craft-solver/static/css/main.01fa5c35.chunk.css",
-    "main.js": "/xiv-craft-solver/static/js/main.e93dfb36.chunk.js",
-    "main.js.map": "/xiv-craft-solver/static/js/main.e93dfb36.chunk.js.map",
+    "main.js": "/xiv-craft-solver/static/js/main.6b4fb6d2.chunk.js",
+    "main.js.map": "/xiv-craft-solver/static/js/main.6b4fb6d2.chunk.js.map",
     "runtime-main.js": "/xiv-craft-solver/static/js/runtime-main.302411a6.js",
     "runtime-main.js.map": "/xiv-craft-solver/static/js/runtime-main.302411a6.js.map",
     "static/js/2.02c6b747.chunk.js": "/xiv-craft-solver/static/js/2.02c6b747.chunk.js",
     "static/js/2.02c6b747.chunk.js.map": "/xiv-craft-solver/static/js/2.02c6b747.chunk.js.map",
     "index.html": "/xiv-craft-solver/index.html",
-    "precache-manifest.0488cab7d2820e137eb2d1cf407ed7d6.js": "/xiv-craft-solver/precache-manifest.0488cab7d2820e137eb2d1cf407ed7d6.js",
+    "precache-manifest.eee5a11aa67b7891e45429398fa99801.js": "/xiv-craft-solver/precache-manifest.eee5a11aa67b7891e45429398fa99801.js",
     "service-worker.js": "/xiv-craft-solver/service-worker.js",
     "static/css/main.01fa5c35.chunk.css.map": "/xiv-craft-solver/static/css/main.01fa5c35.chunk.css.map",
     "static/js/2.02c6b747.chunk.js.LICENSE.txt": "/xiv-craft-solver/static/js/2.02c6b747.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.302411a6.js",
     "static/js/2.02c6b747.chunk.js",
     "static/css/main.01fa5c35.chunk.css",
-    "static/js/main.e93dfb36.chunk.js"
+    "static/js/main.6b4fb6d2.chunk.js"
   ]
 }
