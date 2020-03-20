@@ -203,10 +203,10 @@ function App() {
       cpAvail -= 7;
     }
     let results = [
-      solve(cpAvail, durability, manipulation, 0)
-      //solve(cpAvail, durability - 5, manipulation, 0),
-      //solve(cpAvail, durability, manipulation, 1),
-      //solve(cpAvail, durability, manipulation, 2)
+      solve(cpAvail, durability, manipulation, 0),
+      solve(cpAvail, durability - 5, manipulation, 0),
+      solve(cpAvail, durability, manipulation, 1),
+      solve(cpAvail, durability, manipulation, 2)
     ];
     let max = null;
     for (const result of results) {
