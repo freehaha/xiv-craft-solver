@@ -123,11 +123,11 @@ const useStyles = makeStyles(theme => ({
   },
   solutionHeading: {
     fontSize: theme.typography.pxToRem(18),
-    fontWeight: theme.typography.fontWeightMedium,
+    fontWeight: theme.typography.fontWeightMedium
   },
   solutionSubtitle: {
     fontSize: theme.typography.pxToRem(16),
-    fontWeight: theme.typography.fontWeightBold,
+    fontWeight: theme.typography.fontWeightBold
   },
   icon: {
     marginRight: theme.spacing(1)
@@ -137,9 +137,11 @@ const useStyles = makeStyles(theme => ({
 function Icon({ action }) {
   const classes = useStyles();
   const imgName = action.replace(/\W/g, "");
-  return <span className={classes.icon}>
-           <img src={`/images/actions/${imgName}.png`} alt={action} title={action}/>
-         </span>;
+  return (
+    <span className={classes.icon}>
+      <img src={`images/actions/${imgName}.png`} alt={action} title={action} />
+    </span>
+  );
 }
 
 function solve(cp, durability, manipulation, observes) {
@@ -297,13 +299,13 @@ function App() {
                   <Typography className={classes.solutionSubtitle}>
                     CP left: {solution.cpRemain}
                   </Typography>
-                  <Typography className={classes.solutionSubtitle}>Steps</Typography>
+                  <Typography className={classes.solutionSubtitle}>
+                    Steps
+                  </Typography>
                   <div className={classes.solutionSteps}>
-                  {solution.sequence.map((action, i) => {
-                    return (
-                        <Icon key={i} action={action} />
-                    );
-                  })}
+                    {solution.sequence.map((action, i) => {
+                      return <Icon key={i} action={action} />;
+                    })}
                   </div>
                 </div>
               </ExpansionPanelDetails>
