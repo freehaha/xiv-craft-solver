@@ -62,10 +62,12 @@ function validate(dur, manipulation, observes, sequence) {
       return null;
     }
   };
+  let seq;
   if (items && items.length > 0) {
     iter = Combinatorics.permutation(items);
+  } else {
+    return [data.sequences[finisher]];
   }
-  let seq;
   while ((seq = iter.next())) {
     seq = seq.map(id => {
       return data.sequences[id];
@@ -188,11 +190,11 @@ function solve(cp, durability, manipulation, observes) {
 }
 
 function App() {
-  const [durability, setDurability] = useState(23);
-  const [cp, setCp] = useState(220);
+  const [durability, setDurability] = useState(11);
+  const [cp, setCp] = useState(74);
   const [manipulation, setManipulation] = useState(0);
   const [solutions, setSolutions] = useState([]);
-  const [carefulSyn, setCarefulSyn] = useState(true);
+  const [carefulSyn, setCarefulSyn] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
   const [displayInfo, setDisplayInfo] = useState(true);
   const classes = useStyles();
