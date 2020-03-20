@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7564f11e21b3e2dd0c1dc928fb3d5bfc",
+    "revision": "d2449b72510fd5a6b3f5b3f52857c669",
     "url": "/xiv-craft-solver/index.html"
   },
   {
