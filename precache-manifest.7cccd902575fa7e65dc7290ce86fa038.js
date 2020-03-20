@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8768aa4aade6421d8d70db29502f926d",
+    "revision": "d44ab96080eb1c85dfb856041813a38e",
     "url": "/xiv-craft-solver/index.html"
   },
   {
-    "revision": "1cf9944394d52e4bbdcf",
+    "revision": "6256ff97e252eca450c4",
     "url": "/xiv-craft-solver/static/css/main.01fa5c35.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xiv-craft-solver/static/js/2.02c6b747.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1cf9944394d52e4bbdcf",
-    "url": "/xiv-craft-solver/static/js/main.50e3e6a1.chunk.js"
+    "revision": "6256ff97e252eca450c4",
+    "url": "/xiv-craft-solver/static/js/main.6a825493.chunk.js"
   },
   {
     "revision": "a31a30d9a3d4a35f63ee",
