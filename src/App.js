@@ -188,8 +188,8 @@ function solve(cp, durability, manipulation, observes) {
 }
 
 function App() {
-  const [durability, setDurability] = useState(1);
-  const [cp, setCp] = useState(320);
+  const [durability, setDurability] = useState(23);
+  const [cp, setCp] = useState(220);
   const [manipulation, setManipulation] = useState(0);
   const [solutions, setSolutions] = useState([]);
   const [carefulSyn, setCarefulSyn] = useState(true);
