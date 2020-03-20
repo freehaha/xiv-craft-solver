@@ -221,7 +221,7 @@ function App() {
       max.hasty = max.sequence.filter(
         action => action === "Hasty Touch"
       ).length;
-      setSolutions([max, ...solutions]);
+      setSolutions([max, ...solutions.slice(0, 5)]);
     } else {
       setShowAlert(true);
     }
